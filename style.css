@@ -1,0 +1,81 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header styling */
+header {
+    background-color: pink;;
+    color: rgb(235, 26, 26);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Recipe Grid styling */
+.recipe-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Recipe Card styling */
+.recipe-card {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.recipe-card img {
+width:100%;height:170px;object-fit:cover;display:block
+}
+
+.recipe-card h2 {
+    margin-top:10px;
+    font-size: 1.5rem;
+}
+
+.recipe-card ul {
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+.recipe-card p {
+    color: black;
+}
+
+/* Hover effect for recipe card */
+.recipe-card:hover {
+    transform: scale(1.02);
+    color: red;
+}
+
+/* Footer styling */
+footer {
+    background-color: pink;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin: 5px 0;
+} footer:hover{ color:blue;}
+
+recipe-card p :hover{
+    color: red
+}
